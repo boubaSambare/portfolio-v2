@@ -33,7 +33,8 @@
     "react-helmet": "^5.2.1",
     "react-reveal": "^1.2.2",
     "react-tilt": "^0.1.4",
-    "uuid": "^3.4.0"
+    "uuid": "^3.4.0",
+    "webpack": "^4.42.1"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
