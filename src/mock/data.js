@@ -2,9 +2,9 @@ import uuidv1 from 'uuid/v1';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Sambare Aboubacar | full stack developer', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'MERN Full Stack Developer really passionate and challenging!', // e.g: Welcome to my website
 };
 
 // HERO DATA
@@ -31,7 +31,7 @@ export const projectsData = [
     img: 'appcademix.png',
     title: 'Appcademix',
     info: 'Link sharing platform for developer, disigner....',
-    videoUrl:'https://www.youtube.com/watch?v=DLX62G4lc44',
+    videoUrl:'',
     info2: '',
     url: 'https://appcademix.herokuapp.com',
     repo: 'https://github.com/jeffascript/AppcademiX-BE', // if no repo, the button will not show up
