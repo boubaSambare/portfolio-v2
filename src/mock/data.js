@@ -18,48 +18,31 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpeg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphOne: "MERN Full Stack Developer really passionate and challenging!",
+  paragraphTwo: "I really like keep pushing myself in new things! Six months ago I started a course in Strive SChool to learn more about MERN and I'm succefully finishing it!",
+  paragraphThree: 'Currently looking for a job',
+  resume: 'https://www.linkedin.com/in/sambare-aboubacar', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'appcademix.png',
+    title: 'Appcademix',
+    info: 'Link sharing platform for developer, disigner....',
+    videoUrl:'https://www.youtube.com/watch?v=DLX62G4lc44',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
+    url: 'https://appcademix.herokuapp.com',
+    repo: 'https://github.com/jeffascript/AppcademiX-BE', // if no repo, the button will not show up
+  }
 ];
 
 // CONTACT DATA
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'boubasambare@yahoo.it',
 };
 
 // FOOTER DATA
@@ -70,11 +53,7 @@ export const footerData = {
       name: 'twitter',
       url: '',
     },
-    {
-      id: uuidv1(),
-      name: 'codepen',
-      url: '',
-    },
+    
     {
       id: uuidv1(),
       name: 'linkedin',
