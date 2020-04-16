@@ -101,7 +101,7 @@ const Projects = () => {
                         >
                           <div data-tilt className="thumbnail rounded">
                             {!videoUrl && <ProjectImg alt={title} filename={img} />}
-                            <ReactPlayer url={videoUrl} playing={false}/>
+                            {videoUrl && <ReactPlayer url={videoUrl} playing={false}/>}
                           </div>
                         </Tilt>
                       </a>
