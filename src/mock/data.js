@@ -57,12 +57,12 @@ export const footerData = {
     {
       id: uuidv1(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/sambare-aboubacar',
     },
     {
       id: uuidv1(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/boubaSambare',
     },
   ],
 };
