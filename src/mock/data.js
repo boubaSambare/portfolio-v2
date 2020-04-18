@@ -32,6 +32,7 @@ export const projectsData = [
     title: 'Appcademix',
     info: 'Link sharing platform for developer, disigner....',
     videoUrl:'',
+    stacks:['react','express','nodejs','mongodb'],
     info2: '',
     url: 'https://appcademix.herokuapp.com',
     repo: 'https://github.com/jeffascript/AppcademiX-BE', // if no repo, the button will not show up
