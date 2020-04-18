@@ -11,7 +11,7 @@ const NavBar = () => {
     }
     return (
         <>
-            <Navbar bg="dark">
+            <Navbar bg="dark" sticky="top">
                 <Link to="/" className="text-white font-weight-bolder navbar-brand">SAMBARE ABOUBACAR</Link>
                 <Navbar.Toggle />
                 <Navbar.Collapse className="justify-content-end">
