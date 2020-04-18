@@ -18,9 +18,9 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpeg',
-  paragraphOne: "MERN Full Stack Developer really passionate and challenging!",
-  paragraphTwo: "I really like keep pushing myself in new things! Six months ago I started a course in Strive SChool to learn more about MERN and I'm succefully finishing it!",
-  paragraphThree: 'Currently looking for a job',
+  paragraphOne: "I'm a passionate full stack  developer.I enjoy creating high quality applications using MERN( MongoDB, Express, React / Redux, and Node.js) stacks.",
+  paragraphTwo: "I'm really interested in new technologies  especially those of the javascript ecosystem.",
+  paragraphThree: '',
   resume: 'https://www.linkedin.com/in/sambare-aboubacar', // if no resume, the button will not show up
 };
 
