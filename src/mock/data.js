@@ -4,7 +4,7 @@ import uuidv1 from 'uuid/v1';
 export const headData = {
   title: 'Sambare Aboubacar | full stack developer', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
-  description: 'MERN Full Stack Developer really passionate and challenging!', // e.g: Welcome to my website
+  description:"I'm a passionate full stack  developer skills: javascript, reactjs, nodejs, expressjs, mongodb... " // e.g: Welcome to my website
 };
 
 // HERO DATA
