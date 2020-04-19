@@ -7,7 +7,7 @@ const Blog = () => {
         background: `url('${notfound}')`,
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
-        backgroundSize: 'cover'
+        backgroundSize: '50% 50%'
     }
 
     return (
