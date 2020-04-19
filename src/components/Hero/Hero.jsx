@@ -1,6 +1,7 @@
 import React, { useContext, useState, useEffect } from 'react';
 import { Container } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
+import developer from '../../images/developer.svg'
 import PortfolioContext from '../../context/context';
 
 const Header = () => {
@@ -20,8 +21,15 @@ const Header = () => {
     }
   }, []);
 
+  const styles = {
+    background: `url('${developer}')`,
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: 'cover'
+  }
+
   return (
-    <section id="hero" className="jumbotron">
+    <section id="hero" className="jumbotron" style={styles} >
       <Container>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
           <h1 className="hero-title">
