@@ -23,9 +23,9 @@ const Header = () => {
 
   const styles = {
     background: `url('${developer}')`,
-    backgroundPosition: 'center',
+    backgroundPosition:'center top',
     backgroundRepeat: 'no-repeat',
-    backgroundSize: 'cover'
+    backgroundSize: '200px 200px'
   }
 
   return (
