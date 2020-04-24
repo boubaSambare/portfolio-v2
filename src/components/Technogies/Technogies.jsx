@@ -10,7 +10,7 @@ const Technogies = ({stacks}) => {
   return (
     <>
       {stacks.length && stacks.map((stack,i) => (
-          <span key={i} className="ml-3 px-1" style={styles} >{stack}</span>
+          <span key={i} className="mr-3 px-1" style={styles} >{stack}</span>
       ))}
     </>
   )
