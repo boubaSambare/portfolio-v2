@@ -36,6 +36,17 @@ export const projectsData = [
     info2: '',
     url: 'https://appcademix.herokuapp.com',
     repo: 'https://github.com/jeffascript/AppcademiX-BE', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
+    img: 'backend.png',
+    title: 'Linkedin clone',
+    info: 'Linkedin clone backend',
+    videoUrl:'',
+    stacks:['express','nodejs','mongodb'],
+    info2: '',
+    url: 'https://linkedin-backend.herokuapp.com/',
+    repo: 'https://github.com/boubaSambare/linkedin-backend', // if no repo, the button will not show up
   }
 ];
 
